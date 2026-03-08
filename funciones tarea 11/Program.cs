@@ -2,16 +2,15 @@
 {
 	private static void Main(string[] args)
 	{
-		// Mostrar un saludo en pantalla utilizando una función Saludar() que imprima “Hola, bienvenido”.
-			void Saludar()
+		// Mostrar un nombre en pantalla utilizando una función MostrarNombre().
+		void MostrarNombre()
 			{
-
-			Console.WriteLine("ingrese un nombre: ");
+			Console.WriteLine("INGRESE UN NOMBRE: ");
 			string nombre= Console.ReadLine();
-            Console.WriteLine("hola, bienvenido  " + nombre);
-			
+			Console.WriteLine(nombre);
 			}
-		Saludar();
+		MostrarNombre();
+		
 
 
 
