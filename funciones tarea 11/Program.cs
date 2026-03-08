@@ -2,14 +2,13 @@
 {
 	private static void Main(string[] args)
 	{
-		// Mostrar un nombre en pantalla utilizando una función MostrarNombre().
-		void MostrarNombre()
+		// Mostrar un mensaje en pantalla utilizando una función MostrarMensaje() que imprima “Programación en C#”.
+		void MostrarMensaje()
 			{
-			Console.WriteLine("INGRESE UN NOMBRE: ");
-			string nombre= Console.ReadLine();
-			Console.WriteLine(nombre);
+			Console.WriteLine("PROGRAMACION EN C#: ");
+			
 			}
-		MostrarNombre();
+		MostrarMensaje();
 		
 
 
