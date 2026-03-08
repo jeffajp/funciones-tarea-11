@@ -7,10 +7,11 @@ internal class Program
 		// Imprimir una línea separadora utilizando una función Linea() que muestre “----------------”.
 		void Linea()
 		{
-
-	    	Console.WriteLine("-");
-			
-
+			for(int i=0; i<10; i++)
+			{
+				Console.WriteLine("-" );
+			}
+			  
 		}
 		Linea();
 	}
